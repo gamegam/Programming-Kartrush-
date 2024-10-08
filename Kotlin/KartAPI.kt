@@ -59,7 +59,8 @@ class KartAPI {
     }
 
     /**
-     * 캐릭터 레벨을 불러오는 매소드
+     * 캐릭터의 정보(type)을 불러오는 소스 입니다.
+     * 예시 getStten("ouid", "create_date") //계정 가입 날짜를 불러옴
      */
 
     suspend fun getStten(ouid: String, type: String): String {
